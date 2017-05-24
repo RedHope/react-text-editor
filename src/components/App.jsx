@@ -1,10 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class App extends Component {
     render() {
-        <div className="row">
-            <p>Something</p>
-        </div>
+        return (
+            <div className="row">
+                <p>Something</p>
+            </div>)
     }
 }
 

@@ -31,7 +31,14 @@ var config = {
                 'babel-loader'
             ],
             exclude: /node_modules/
-        }]
+        },
+        {
+                test: /\.(css)$/,
+                loader: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }]
     },
     output: {
         path: BUILD_DIR,
