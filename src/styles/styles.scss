@@ -1,4 +1,26 @@
+$grey: #D3D3D3;
+
 .text-editor{
     min-height: 250px;
     border: 1px solid #D3D3D3;
+}
+
+.dropdown {
+    position: relative;
+    max-width: 150px;
+    border: 1px solid $grey;
+    z-index: 100;
+}
+
+.dropdown-list {
+    list-style: none;
+}
+
+.dropdown-item {
+    padding: 5px;
+
+    &:hover {
+        background-color: $grey;
+        cursor: pointer;
+    }
 }
