@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4",
+    "corejs-typeahead": "1.1.1",
     "webpack": "^2.6.0"
   },
   "devDependencies": {

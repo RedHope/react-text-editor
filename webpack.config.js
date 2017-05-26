@@ -13,7 +13,7 @@ var config = {
     entry: './src/app.js',
     module: {
         loaders: [{
-            test: /\.(sass|css)$/,
+            test: /\.(sass|css|scss)$/,
             use: [
                 'style-loader',
                 'css-loader',
