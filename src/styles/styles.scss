@@ -14,11 +14,11 @@ $grey: #D3D3D3;
 
 .dropdown-list {
     list-style: none;
+    padding: 10px;
 }
 
 .dropdown-item {
     padding: 5px;
-
     &:hover {
         background-color: $grey;
         cursor: pointer;

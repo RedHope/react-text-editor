@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
 
-class Dropdown extends Component { 
+class Dropdown extends Component {
+    handleClick(e) {
+        e.preventDefault();
+        e.stopPropagation();
+    }
     render() {
         const suggestions = this.props.suggestions.map((suggestion) => 
-            <li key={suggestion} className='dropdown-item'>{suggestion}</li>
+            <li 
+                key={suggestion} 
+                className='dropdown-item'
+                onClick={this.handleClick}>{suggestion}</li>
         );
 
         return (
